@@ -21,11 +21,11 @@ pipenv run python emoji-downloader.py [--forcefetch] <variant>
 | `forcefetch`	| (Optional flag) If specified, forces (re)downloading of the source html, otherwise use cache if it exists from previous use (default at `emoji/cache.html`). 	|
 
 **Example**: 
-```Python
+```Shell
 pipenv run python emoji-downloader.py Appl
 ```
 
-Output is saved at `emoji/<variant>/` (e.g. `emoji/Appl/`). Files are saved as <unicode_code>.png, without `U+`, joining codes with `_` (e.g. `1f1e6_1f1e8.png`).
+Output is saved at `emoji/<variant>/` (e.g. `emoji/Appl/`). Files are saved as <unicode_code>.png, without `U+`, joining codes with `_` (e.g. `1f1e6_1f1e8.png`, extract from html so subject to change).
 
 
 ## Possible improvements
